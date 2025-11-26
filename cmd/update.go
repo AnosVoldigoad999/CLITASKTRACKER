@@ -17,13 +17,8 @@ import (
 var updateCmd = &cobra.Command{
 	Use:   "update [id] [task]",
 	Args:  cobra.ExactArgs(2),
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Updating a task",
+	Long:  `Updating a task: ctt update 1 "new task"`,
 	Run: func(cmd *cobra.Command, args []string) {
 		idToUpdate, err := strconv.Atoi(args[0])
 		newTask := args[1]
