@@ -12,7 +12,7 @@ var rootCmd = &cobra.Command{
 	Use:   "ctt",
 	Short: "A cli task tracker",
 	Long: `A cli task tracker built by Adeyemi Oyedeji, 
-	code can be found here: https://github.com/AnosVoldigoad999`,
+	code can be found here: https://github.com/AnosVoldigoad999/CLITASKTRACKER.git`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Hello from my CLI!")
 	},
