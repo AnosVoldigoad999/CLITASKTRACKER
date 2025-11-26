@@ -29,11 +29,16 @@ ctt delete 1
 
 # To mark a task as in progress/done/todo
 ctt mark-in-progress 1
+#
 ctt mark-done 1
+#
 ctt mark-todo 1
-
+#
 # To list all tasks
-ctt list
+ctt list 
+#
 ctt list done
+#
 ctt list todo
+#
 ctt list in-progress
