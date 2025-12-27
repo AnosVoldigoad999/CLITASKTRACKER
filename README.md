@@ -8,9 +8,11 @@ Clone the repository and run the following command:
 
 git clone https://github.com/AnosVoldigoad999/CLITASKTRACKER.git
 cd CLITASKTRACKER
-Run the following command to build, install and run the project:
+Run the following commands to install dependencies, build, install and run the project:
 #
 NOTE: YOU NEED TO HAVE GO INSTALLED, IF YOU DON'T HAVE IT INSTALLED GO HERE: https://go.dev/doc/install
+#
+go mod download
 #
 go build
 #
